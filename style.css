@@ -1,0 +1,13 @@
+.bg-color{
+    background-color: gray;
+    height: 220px;
+    width: 200px;
+    border-radius: 10px;
+}
+.item-image{
+    background-color: greenyellow;
+    height: 150px;
+    width: 180px;
+    border-radius: 10px;
+    margin: 10px 0 0 10px;
+}

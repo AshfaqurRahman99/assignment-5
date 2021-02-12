@@ -4,26 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <title>Document</title>
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	 <link rel="stylesheet" href="style.css">
+    <title>hungry-monster</title>
+    
 </head>
+    
 <body>
     <form class="col-md-6 m-auto py-5">
         <div class="input-group mb-3">
-            <input id="place" type="text" class="form-control" placeholder="Enter a food name here ...">
+            <input id="search-field" type="text" class="form-control" placeholder="Enter a food name here ...">
             <div class="input-group-append">
-                <button onclick="weather()" type="button" class="btn btn-success">Search</button>
+                <button onclick="searchFood()" type="button" class="btn btn-success">Search</button>
             </div>
         </div>
-        <div>
-            <div class="row col-md-3"></div>
-            <div class="row col-md-3"></div>
-            <div class="row col-md-3"></div>
-            <div class="row col-md-3"></div>
-        </div>
     </form>
-    <script>
+    <main class="container">
+        <div id="food-container" class="row d-flex justify-content-around">
+            
+            
+        </div>
 
-    </script>
+    </main>
+    <script src="app.js"></script>
 </body>
 </html>
